@@ -31,19 +31,32 @@ li a {
     padding: 14px 14px;
     text-decoration: none;
 }
-
-li a:visited {
-    background-color: #9a78f7;
-}
-
+/* unvisited link */
+/* li a:link {
+    color: #265301;
+} */
+  
+/* visited link, work w/ pair of a:link */
+/* li a:visited {
+    color: red;
+} */
+  
+li a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
 li a:hover {
     border-bottom: 1px solid;
     background-color: #ea9ab2;
+  }
+  
+li a:active {
+    background-color: #ea9ab2;
 }
 
-li a:active {
-    border-bottom: 1px solid;
-    background-color: #ea9ab2;
+#active-page {
+    background-color: #dd507b;
 }
 
 .container {
