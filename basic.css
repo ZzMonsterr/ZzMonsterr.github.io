@@ -70,6 +70,10 @@ li a:active {
     font-style: bold;
 }
 
+img {
+    max-width:30%;
+    height:auto;
+}
 
 @media(max-width: 650px) {      /* for mobile */
     .navbar {
@@ -107,6 +111,10 @@ li a:active {
     table {
         width: 100%;
     }
+
+    img {
+        width: 300px;
+    }
     
 }
 
@@ -128,12 +136,6 @@ table {
 
 .contact-info-table {
     margin: 0 auto;
-}
-
-img {
-    /* width: 300px; */
-    max-width:30%;
-    height:auto;
 }
 
 div {
