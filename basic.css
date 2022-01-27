@@ -131,7 +131,9 @@ table {
 }
 
 img {
-    width: 300px;
+    /* width: 300px; */
+    max-width:30%;
+    height:auto;
 }
 
 div {
