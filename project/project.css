@@ -1,0 +1,9 @@
+.project-span {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: large;
+} 

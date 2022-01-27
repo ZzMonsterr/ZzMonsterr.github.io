@@ -1,14 +1,26 @@
+
+  :root {
+    --navbar-cover-mobile: 225px;
+    --navbar-cover-screen: 60px;
+    --navbar-height: 51px;
+  }
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1, h2 {
+    color: #dd507b;
+}
+
+/* start of nav bar */
 .navbar {
     background-color: #efcfe3;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 51px;
+    height: var(--navbar-height);
 }
 
 .navbar-ul {
@@ -30,14 +42,8 @@ li a {
     display: inline;
     color: white;
     text-align: center;
-    /* padding: 14px 15px; */
     text-decoration: none;
 }
-
-#title {
-    font-style: italic;
-}
-
  
 li a:focus {
     border-bottom: 1px solid;
@@ -58,27 +64,40 @@ li a:active {
     background-color: #dd507b;
 }
 
-.container {
-    margin-top: 60px;
-}
+/* end of nav bar */
 
 .italic {
     font-style: italic;
 }
 
 .bold {
-    font-style: bold;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-spacing: 5px;
+}
+
+div {
+    margin-bottom: 5px;
 }
 
 
-@media(max-width: 650px) {      /* for mobile */
+@media(max-width: 576px) {      /* for mobile */
+    .content {
+        margin-top: var(--navbar-cover-mobile);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .navbar {
         background-color: #efcfe3;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: 225px;
+        height: var(--navbar-cover-mobile);
     }
     
     .navbar-ul {
@@ -99,56 +118,12 @@ li a:active {
         text-align: center;
         text-decoration: none;
     }
-
-    .container {
-        margin-top: 225px;
-    }
-
-    table {
-        width: 100%;
-    }
-
-    img {
-        width: 300px;
-    }
-    
 }
 
-@media(min-width: 650px) {
-    table {
-        width: 100%;
+@media (min-width: 576px) {
+    .content {
+        margin-top: var(--navbar-cover-screen);
+        margin-left: 20px;
+        margin-right: 20px;
     }
-
-    img {
-        max-width:30%;
-        height:auto;
-    }
-}
-
-@media(min-width: 800px) {
-    table {
-        width: 80%;
-    }
-}
-
-table {
-    border-spacing: 10px;
-}
-
-.contact-info-table {
-    margin: 0 auto;
-}
-
-div {
-    margin-bottom: 5px;
-}
-
-.project-span {
-    margin-left: 2%;
-    margin-right: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-style: italic;
-    font-size: large;
 }
