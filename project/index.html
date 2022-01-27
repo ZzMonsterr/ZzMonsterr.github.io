@@ -8,23 +8,48 @@
     <link rel="stylesheet" href="../basic.css">
 </head>
 <body>
-    <div>
-        <ul>
-            <li id="title">Yuan Zhuang's Personal Website</li>
+    <div class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li" id="title">Yuan Zhuang</li>
             <!-- gitpage -->
-            <li><a href="../">Home</a></li>
-            <li><a id="active-page" href="">Project</a></li>
-            <li><a href="../contactme">Contact</a></li>
-            <li><a href="../more">More</a></li>
+            <li class="navbar-li"><a href="../">Home</a></li>
+            <li class="navbar-li"><a id="active-page" href="">Project</a></li>
+            <li class="navbar-li"><a href="../contactme">Contact</a></li>
+            <li class="navbar-li"><a href="../more">More</a></li>
 
             <!-- local -->
-            <!-- <li><a href="../index.html">Home</a></li>
-            <li><a id="active-page" href="index.html">Project</a></li>
-            <li><a href="../contactme/index.html">Contact</a></li>
-            <li><a href="../more/index.html">More</a></li> -->
+            <!-- <li class="navbar-li"><a href="../index.html">Home</a></li>
+            <li class="navbar-li"><a id="active-page" href="index.html">Project</a></li>
+            <li class="navbar-li"><a href="../contactme/index.html">Contact</a></li>
+            <li class="navbar-li"><a href="../more/index.html">More</a></li> -->
         </ul>
     </div>
 
     <div class="container"><h1>Project</h1></div>
+
+    <div class="project-span">
+        <span class="bold">Museum AR Tour App iOS</span>
+        <span>June 2021 - July 2021</span>
+    </div>
+    <div>
+        <ul>
+            <li>Implemented Augmented Reality experience on the real-world objects when user is scanning via phone.</li>
+            <li>Scanned and imported reference objects with Apple’s Object Scanning function in ARKit.</li>
+            <li>Displayed description of exhibits using SceneKit text nodes on top of reference objects detected by ARKit.</li>
+        </ul>
+    </div>
+
+    <div class="project-span">
+        <span class="bold">JPMorgan Chase Software Engineering Virtual Experience</span>
+        <span>May 2020 - June 2020</span>
+    </div>
+    <div>
+        <ul>
+            <li>Interfaced with a stock price data feed and set up the system for data analysis with Python.</li>
+            <li>Made financial analysis to find a trading opportunity for user when a temporary weakening of a correlation between two stock prices shows up using Chase’s API.</li>
+            <li>Visualized data for traders using reusable UI components (including charts, data tables, etc.) with React.</li>
+        </ul>
+    </div>
+
 </body>
 </html>
