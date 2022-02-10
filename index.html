@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="basic.css">
 </head>
 <body>
+
     <!-- Navbar -->
-    <div class="navbar">
+    <nav class="navbar">
         <ul class="navbar-ul">
             <li class="navbar-li italic">Yuan Zhuang</li>
             <!-- gitpage -->
-            <!-- <li class="navbar-li"><a id="active-page" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+            <li class="navbar-li"><a id="active-page" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                 </svg> Home</a></li>
@@ -27,10 +28,10 @@
             <li class="navbar-li"><a href="/more"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-              </svg> More</a></li> -->
+              </svg> More</a></li>
 
             <!-- local -->
-            <li class="navbar-li"><a id="active-page" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+            <!-- <li class="navbar-li"><a id="active-page" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                 </svg> Home</a></li>
@@ -44,69 +45,68 @@
             <li class="navbar-li"><a href="more/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-              </svg> More</a></li>
+              </svg> More</a></li> -->
         </ul>
-    </div>
+    </nav>
 
-    <div class="content">
-        <h1>About Me</h1>
-        <p>
-            Welcome to my page! My name is Yuan Zhuang.
-        </p>
-        <div>
-            <h2>Education</h2>
-            <table>
+    <div class="background">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>
+                Welcome to my page! My name is Yuan Zhuang.
+            </p>
+            <div>
+                <h2>Education</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="bold">Northeastern University, Seattle, WA</td>
+                            <td>Jan 2021 - June 2023 (Expected)</td>
+                        </tr>
+                        <tr>
+                            <td class="italic">Master of Science in Computer Science, GPA: 4.0/4.0</td>
+                            <td></td>
+                        </tr>
+        
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+        
+                        <tr>
+                            <td class="bold">Shanghai International Studies University, Shanghai, China</td>
+                            <td>Sep 2016 - June 2020</td>
+                        </tr>
+                        <tr>
+                            <td class="italic">Bachelor of Management in Accounting, GPA: 3.5/4.0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+            <div>
+                <h2>Technical Skills</h2>
+            </div>
+            <div>
+                <table class="tech-skill-table">
                 <tbody>
-                    <tr>
-                        <td class="bold">Northeastern University, Seattle, WA</td>
-                        <td>Jan 2021 - June 2023 (Expected)</td>
+                    <tr> 
+                        <td class="bold">Programming Languages:</td>
+                        <td>Python, Java, C, C++, JavaScript, HTML / CSS, Shell, Swift</td>
                     </tr>
                     <tr>
-                        <td class="italic">Master of Science in Computer Science, GPA: 4.0/4.0</td>
-                        <td></td>
-                    </tr>
-    
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-    
-                    <tr>
-                        <td class="bold">Shanghai International Studies University, Shanghai, China</td>
-                        <td>Sep 2016 - June 2020</td>
+                        <td class="bold">Frameworks:</td>
+                        <td>Node.js / Express, Spring Boot, Angular, React, Vue</td>
                     </tr>
                     <tr>
-                        <td class="italic">Bachelor of Management in Accounting, GPA: 3.5/4.0</td>
-                        <td></td>
+                        <td class="bold">Database / Tools:</td>
+                        <td>MongoDB, MySQL, Git, Postman, Gradle, Heroku, HashCat, ARKit</td>
                     </tr>
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
-    
-        <div>
-            <h2>Technical Skills</h2>
-        </div>
-        <div>
-            <table class="tech-skill-table">
-              <tbody>
-                <tr> 
-                    <td class="bold">Programming Languages</td>
-                    <td>:</td>
-                    <td>Python, Java, C, C++, JavaScript, HTML / CSS, Shell, Swift</td>
-                </tr>
-                <tr>
-                    <td class="bold">Frameworks</td>
-                    <td>:</td>
-                    <td>Node.js / Express, Spring Boot, Angular, React, Vue</td>
-                </tr>
-                <tr>
-                    <td class="bold">Database / Tools</td>
-                    <td>:</td>
-                    <td>MongoDB, MySQL, Git, Postman, Gradle, Heroku, HashCat, ARKit</td>
-                </tr>
-              </tbody>
-          
-            </table>
     </div>
 
 </body>
